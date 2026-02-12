@@ -15,11 +15,11 @@ class Game:
 		self.WIDTH = screen.get_width()
 		self.HEIGHT = screen.get_height()
 		# fonts
-		self.author_font = pg.font.Font('../assets/ui/ARCADEPI.TTF', 30)
-		self.small_font = pg.font.Font('../assets/ui/ARCADEPI.TTF', 35)
-		self.normal_font = pg.font.Font('../assets/ui/ARCADEPI.TTF', 50)
-		self.midium_font = pg.font.Font('../assets/ui/ARCADEPI.TTF', 60)
-		self.big_font = pg.font.Font('../assets/ui/ARCADEPI.TTF', 70)
+		self.author_font = pg.font.Font('data/assets/ui/ARCADEPI.TTF', 30)
+		self.small_font = pg.font.Font('data/assets/ui/ARCADEPI.TTF', 35)
+		self.normal_font = pg.font.Font('data/assets/ui/ARCADEPI.TTF', 50)
+		self.midium_font = pg.font.Font('data/assets/ui/ARCADEPI.TTF', 60)
+		self.big_font = pg.font.Font('data/assets/ui/ARCADEPI.TTF', 70)
 		# level
 		self.state = state  # menu/game/pause/gameover/settings
 		self.prev_state = state

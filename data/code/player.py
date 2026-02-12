@@ -67,7 +67,7 @@ class Player(pg.sprite.Sprite):
 		self.hit_sound = pg.mixer.Sound(audio_paths['player']['hit'])
 
 	def import_character_assets(self):
-		base_path = '../assets/character/'
+		base_path = 'data/assets/character/'
 		animation_set = {'idle': [], 'run': [], 'jump': [],
 		                 'jump_to_fall': [], 'fall': [], 'roll': [],
 		                 'attack': [], 'crouch': [], 'death': [], 'hit': []}
