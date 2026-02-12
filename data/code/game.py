@@ -32,8 +32,8 @@ class Game:
 		self.open_level_time = 0
 		self.last_button_press = 0
 		# labels
-		self.title = TextLabel('Medieval Apocalypse', self.big_font, (self.WIDTH / 2, self.HEIGHT / 4))
-		self.author_label = TextLabel('Made By Lev Aronov', self.author_font, (0, 0))
+		self.title = TextLabel('Medieval Apocalypse Community Edition', self.big_font, (self.WIDTH / 2, self.HEIGHT / 4))
+		self.author_label = TextLabel('Made By Lev Aronov and Community(t1lereasy)', self.author_font, (0, 0))
 		self.author_label.rect.bottomright = (self.WIDTH - 50, self.HEIGHT - 50)
 		self.start_label = TextLabel('Enjoy the game!', self.normal_font, (self.WIDTH / 2, self.HEIGHT / 2))
 		self.pause_label = TextLabel('Game paused', self.normal_font, (self.WIDTH / 2, self.HEIGHT / 2))
